@@ -58,14 +58,11 @@ export default function Navbar() {
           </div>
 
           <div className="flex min-w-0 flex-1 items-center justify-between gap-3 lg:justify-end">
-            <Link href="/" className="flex min-w-0 items-center gap-3 text-right">
+            <Link href="/" className="flex min-w-0 items-center text-right">
               <div className="flex min-w-0 flex-col">
                 <span className="text-xs font-semibold uppercase tracking-[0.42em] text-slate-500">Craxad</span>
                 <span className="truncate text-2xl font-black text-slate-950">كراكساب</span>
               </div>
-              <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[linear-gradient(135deg,#0f766e,#0284c7)] text-lg font-black text-white shadow-lg shadow-cyan-500/20">
-                C
-              </span>
             </Link>
 
             <button

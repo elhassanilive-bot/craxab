@@ -1,0 +1,162 @@
+⨯ ./src/app/page.js
+Error:   x Expected '</', got 'jsx text'
+     ,-[C:\D - Project-Web\Craxab-Web\src\app\page.js:187:1]
+ 184 |                     className="h-auto w-full drop-shadow-[0_35px_60px_rgba(2,132,199,0.22)] mix-blend-multiply"
+ 185 |                   />
+ 186 |                 </div>
+ 187 | ,->             </article>
+ 188 | `->           </div>
+ 189 |             </div>
+ 190 |           </section>
+ 190 |     
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.js
+⨯ ./src/app/page.js
+Error:   x Expected '</', got 'jsx text'
+     ,-[C:\D - Project-Web\Craxab-Web\src\app\page.js:187:1]
+ 184 |                     className="h-auto w-full drop-shadow-[0_35px_60px_rgba(2,132,199,0.22)] mix-blend-multiply"
+ 185 |                   />
+ 186 |                 </div>
+ 187 | ,->             </article>
+ 188 | `->           </div>
+ 189 |             </div>
+ 190 |           </section>
+ 190 |     
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.js
+⨯ ./src/app/page.js
+Error:   x Expected '</', got 'jsx text'
+     ,-[C:\D - Project-Web\Craxab-Web\src\app\page.js:187:1]
+ 184 |                     className="h-auto w-full drop-shadow-[0_35px_60px_rgba(2,132,199,0.22)] mix-blend-multiply"
+ 185 |                   />
+ 186 |                 </div>
+ 187 | ,->             </article>
+ 188 | `->           </div>
+ 189 |             </div>
+ 190 |           </section>
+ 190 |     
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.js
+⨯ ./src/app/page.js
+Error:   x Expected '</', got 'jsx text'
+     ,-[C:\D - Project-Web\Craxab-Web\src\app\page.js:187:1]
+ 184 |                     className="h-auto w-full drop-shadow-[0_35px_60px_rgba(2,132,199,0.22)] mix-blend-multiply"
+ 185 |                   />
+ 186 |                 </div>
+ 187 | ,->             </article>
+ 188 | `->           </div>
+ 189 |             </div>
+ 190 |           </section>
+ 190 |     
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.js
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\D - Project-Web\Craxab-Web\.next\dev\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\D - Project-Web\Craxab-Web\.next\dev\cache\webpack\client-development-fallback\0.pack.gz'
+⨯ ./src/app/page.js
+Error:   x Expected ',', got 'ident'
+   ,-[C:\D - Project-Web\Craxab-Web\src\app\page.js:4:1]
+ 1 | import Link from 'next/link';
+ 2 | 
+ 3 | export const metadata = {
+ 4 |   title: 'C1'C3'( - EF5) /1/4) HBFH'* 951J)',
+   :              ^^
+ 5 |   description: 'C1'C3'( *7(JB 91(J -/J+ DD/1/4) H'D*H'5D J,E9 'DE-'/+'* 'D.'5) 'DBFH'* H'DE,*E9'* /'.D H',G) 31J9) HH'6-).',
+ 6 |   alternates: { canonical: '/' },
+ 6 | };
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.js
+⨯ ./src/app/page.js
+Error:   x Expected ',', got 'ident'
+   ,-[C:\D - Project-Web\Craxab-Web\src\app\page.js:4:1]
+ 1 | import Link from 'next/link';
+ 2 | 
+ 3 | export const metadata = {
+ 4 |   title: 'C1'C3'( - EF5) /1/4) HBFH'* 951J)',
+   :              ^^
+ 5 |   description: 'C1'C3'( *7(JB 91(J -/J+ DD/1/4) H'D*H'5D J,E9 'DE-'/+'* 'D.'5) 'DBFH'* H'DE,*E9'* /'.D H',G) 31J9) HH'6-).',
+ 6 |   alternates: { canonical: '/' },
+ 6 | };
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.js
+⨯ ./src/app/page.js
+Error:   x Expected ',', got 'ident'
+   ,-[C:\D - Project-Web\Craxab-Web\src\app\page.js:4:1]
+ 1 | import Link from 'next/link';
+ 2 | 
+ 3 | export const metadata = {
+ 4 |   title: 'C1'C3'( - EF5) /1/4) HBFH'* 951J)',
+   :              ^^
+ 5 |   description: 'C1'C3'( *7(JB 91(J -/J+ DD/1/4) H'D*H'5D J,E9 'DE-'/+'* 'D.'5) 'DBFH'* H'DE,*E9'* /'.D H',G) 31J9) HH'6-).',
+ 6 |   alternates: { canonical: '/' },
+ 6 | };
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.js
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⨯ ./src/app/page.js
+Error:   x Expected ',', got 'ident'
+   ,-[C:\D - Project-Web\Craxab-Web\src\app\page.js:4:1]
+ 1 | import Link from 'next/link';
+ 2 | 
+ 3 | export const metadata = {
+ 4 |   title: 'C1'C3'( - EF5) /1/4) HBFH'* 951J)',
+   :              ^^
+ 5 |   description: 'C1'C3'( *7(JB 91(J -/J+ DD/1/4) H'D*H'5D J,E9 'DE-'/+'* 'D.'5) 'DBFH'* H'DE,*E9'* /'.D H',G) 31J9) HH'6-).',
+ 6 |   alternates: { canonical: '/' },
+ 6 | };
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.js
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+^C^C

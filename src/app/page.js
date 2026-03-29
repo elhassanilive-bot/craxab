@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'كراكساب - منصة دردشة وقنوات عصرية',
@@ -126,13 +127,6 @@ export default function HomePage() {
       <section id="top" className="mx-auto max-w-7xl px-4 pb-14 pt-10 sm:px-6 lg:px-8 lg:pt-14">
         <div className="grid items-center gap-10 lg:grid-cols-[1.08fr_0.92fr]">
           <div className="text-right">
-            <div className="inline-flex items-center gap-3 rounded-full border border-cyan-200 bg-white/80 px-4 py-2 text-sm font-semibold text-cyan-900 shadow-sm">
-              <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[linear-gradient(135deg,#0f766e,#0284c7)] text-white">
-                C
-              </span>
-              كراكساب | Craxad
-            </div>
-
             <h1 className="mt-6 max-w-3xl text-5xl font-black leading-[1.15] text-slate-950 sm:text-6xl">
               منصة دردشة وقنوات
               <span className="block bg-[linear-gradient(135deg,#0f766e,#0284c7)] bg-clip-text text-transparent">
@@ -174,55 +168,17 @@ export default function HomePage() {
             <div className="absolute -right-6 top-8 h-36 w-36 rounded-full bg-cyan-300/30 blur-3xl" />
             <div className="absolute -left-4 bottom-6 h-40 w-40 rounded-full bg-teal-300/25 blur-3xl" />
 
-            <article className="relative overflow-hidden rounded-[36px] border border-white/80 bg-[linear-gradient(160deg,#082f49,#0f766e_55%,#d7f3ff_180%)] p-7 text-white shadow-[0_28px_80px_rgba(2,132,199,0.25)]">
-              <div className="flex items-center justify-between text-sm text-white/80">
-                <span className="rounded-full border border-white/20 bg-white/10 px-3 py-1">نسخة الويب</span>
-                <span>محادثات + قنوات + مجتمع</span>
-              </div>
-
-              <div className="mt-8 grid gap-4">
-                <div className="rounded-[28px] border border-white/15 bg-white/10 p-5 backdrop-blur">
-                  <div className="flex items-center justify-between">
-                    <div className="text-right">
-                      <p className="text-xs uppercase tracking-[0.3em] text-cyan-100/70">Primary Channel</p>
-                      <h3 className="mt-2 text-2xl font-black">أخبار كراكساب</h3>
-                    </div>
-                    <span className="rounded-full bg-emerald-400/20 px-3 py-1 text-sm text-emerald-100">نشطة الآن</span>
-                  </div>
-                  <p className="mt-4 text-sm leading-7 text-white/75">
-                    أطلق التحديثات، العروض، وروابط الانضمام داخل قناة واحدة مصممة للمتابعة السريعة.
-                  </p>
-                </div>
-
-                <div className="grid gap-4 sm:grid-cols-2">
-                  <div className="rounded-[28px] border border-white/15 bg-slate-950/25 p-5">
-                    <p className="text-sm text-white/60">رسائل اليوم</p>
-                    <p className="mt-3 text-4xl font-black">24K</p>
-                    <p className="mt-2 text-sm leading-7 text-white/70">تجربة تراسل سريعة مع واجهة تضع المحادثات المهمة في الواجهة.</p>
-                  </div>
-                  <div className="rounded-[28px] border border-white/15 bg-white/10 p-5">
-                    <p className="text-sm text-white/60">نسبة التفاعل</p>
-                    <p className="mt-3 text-4xl font-black">+68%</p>
-                    <p className="mt-2 text-sm leading-7 text-white/70">اللافتات الترويجية والقنوات المنظمة تساعدك على إبراز الرسائل المهمة.</p>
-                  </div>
-                </div>
-
-                <div className="rounded-[30px] bg-white p-5 text-right text-slate-950">
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <p className="text-sm font-semibold text-slate-500">لوحة سريعة</p>
-                      <h3 className="mt-1 text-xl font-black">كل ما تحتاجه لإقناع المستخدم من أول صفحة</h3>
-                    </div>
-                    <span className="rounded-full bg-cyan-50 px-3 py-1 text-sm font-semibold text-cyan-900">واجهة حديثة</span>
-                  </div>
-                  <div className="mt-5 grid gap-3 sm:grid-cols-3">
-                    <MetricCard value="03" label="أنماط ترويج" />
-                    <MetricCard value="08" label="مساحات محتوى" />
-                    <MetricCard value="RTL" label="مصمم للعربية" />
-                  </div>
-                </div>
-              </div>
-            </article>
+            <div className="relative mx-auto flex w-full max-w-[420px] items-end justify-center lg:max-w-[520px]">
+              <div className="pointer-events-none absolute inset-x-10 bottom-2 h-20 rounded-full bg-cyan-300/35 blur-2xl" />
+              <Image
+                src="/phone-hero-v2.png"
+                alt="واجهة الهاتف"
+                width={694}
+                height={1466}
+                priority
+                className="relative h-auto w-[92%] max-w-[430px] drop-shadow-[0_35px_60px_rgba(2,132,199,0.24)] sm:w-[90%]"
+              />
+            </div>
           </div>
         </div>
       </section>

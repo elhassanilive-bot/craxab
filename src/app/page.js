@@ -134,6 +134,17 @@ export default function HomePage() {
               </span>
             </h1>
 
+            <div className="mt-3 flex justify-center lg:hidden">
+              <Image
+                src="/phone-hero-v2.png"
+                alt="واجهة الهاتف"
+                width={694}
+                height={1466}
+                priority
+                className="h-auto w-[58%] max-w-[240px] drop-shadow-[0_18px_36px_rgba(2,132,199,0.2)]"
+              />
+            </div>
+
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
               كراكساب مصمم ليجمع المحادثات الخاصة، القنوات العامة، والمجتمعات في واجهة عربية واضحة تساعد المستخدم على
               التواصل بسرعة، وتمنح المشاريع والعلامات التجارية مساحة أفضل للترويج وبناء جمهورها.
@@ -164,7 +175,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative hidden lg:block">
             <div className="absolute -right-6 top-8 h-36 w-36 rounded-full bg-cyan-300/30 blur-3xl" />
             <div className="absolute -left-4 bottom-6 h-40 w-40 rounded-full bg-teal-300/25 blur-3xl" />
 

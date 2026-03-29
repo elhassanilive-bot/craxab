@@ -134,14 +134,14 @@ export default function HomePage() {
               </span>
             </h1>
 
-            <div className="mt-3 flex justify-center lg:hidden">
+            <div className="mt-3 flex w-full justify-center lg:hidden">
               <Image
                 src="/phone-hero-v2.png"
                 alt="واجهة الهاتف"
                 width={694}
                 height={1466}
                 priority
-                className="h-auto w-[58%] max-w-[240px] drop-shadow-[0_18px_36px_rgba(2,132,199,0.2)]"
+                className="h-auto w-[94%] max-w-[420px] drop-shadow-[0_24px_40px_rgba(2,132,199,0.22)]"
               />
             </div>
 

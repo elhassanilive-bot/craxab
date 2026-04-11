@@ -8,10 +8,11 @@ export const metadata = {
   applicationName: site.nameEn,
   icons: {
     icon: [
-      { url: "/icon.png?v=4", type: "image/png" },
+      { url: "/favicon.ico?v=5", type: "image/png" },
+      { url: "/icon.png?v=5", type: "image/png" },
     ],
-    shortcut: ["/icon.png?v=4"],
-    apple: [{ url: "/apple-icon.png?v=4", type: "image/png" }],
+    shortcut: ["/favicon.ico?v=5"],
+    apple: [{ url: "/apple-icon.png?v=5", type: "image/png" }],
   },
   title: {
     default: `${site.name} | ${site.nameEn}`,

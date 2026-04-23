@@ -129,7 +129,7 @@ export default function HomePage() {
           <div className="text-right">
             <h1 className="mt-6 max-w-3xl text-5xl font-black leading-[1.15] text-slate-950 sm:text-6xl">
               منصة دردشة وقنوات
-              <span className="block bg-[linear-gradient(135deg,#9b6e0f,#7a560b)] bg-clip-text text-transparent">
+              <span className="block bg-[linear-gradient(135deg,#16934f,#0f6e3a)] bg-clip-text text-transparent">
                 تبدو حديثة من أول نظرة
               </span>
             </h1>
@@ -153,7 +153,7 @@ export default function HomePage() {
             <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <Link
                 href="/download"
-                className="inline-flex items-center justify-center rounded-full bg-[linear-gradient(135deg,#9b6e0f,#7a560b)] px-8 py-3.5 text-base font-semibold text-white shadow-xl shadow-cyan-500/20 transition-transform hover:-translate-y-0.5"
+                className="inline-flex items-center justify-center rounded-full bg-[linear-gradient(135deg,#16934f,#0f6e3a)] px-8 py-3.5 text-base font-semibold text-white shadow-xl shadow-cyan-500/20 transition-transform hover:-translate-y-0.5"
               >
                 تنزيل كراكساب
               </Link>
@@ -201,7 +201,7 @@ export default function HomePage() {
               key={banner.title}
               className={`rounded-[32px] p-7 text-right shadow-[0_18px_50px_rgba(15,23,42,0.08)] ${
                 index === 1
-                  ? 'bg-[linear-gradient(140deg,#3f2c05,#7a560b)] text-white'
+                  ? 'bg-[linear-gradient(140deg,#052d17,#0f6e3a)] text-white'
                   : 'border border-white/75 bg-white/85 text-slate-950'
               }`}
             >
@@ -261,7 +261,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="rounded-[34px] bg-[linear-gradient(145deg,#9b6e0f,#3f2c05)] p-8 text-right text-white shadow-[0_28px_70px_rgba(15,118,110,0.18)]">
+          <div className="rounded-[34px] bg-[linear-gradient(145deg,#16934f,#052d17)] p-8 text-right text-white shadow-[0_28px_70px_rgba(15,110,58,0.18)]">
             <p className="text-sm font-semibold uppercase tracking-[0.45em] text-white/45">Why Craxad</p>
             <h2 className="mt-4 text-4xl font-black sm:text-5xl">المنتج ليس مجرد دردشة، بل مساحة تواصل حديثة قابلة للنمو</h2>
             <p className="mt-4 max-w-3xl text-lg leading-8 text-white/75">
@@ -335,7 +335,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="rounded-[34px] bg-[linear-gradient(145deg,#5c4108,#9b6e0f)] p-8 text-right text-white shadow-[0_28px_70px_rgba(2,132,199,0.22)]">
+          <div className="rounded-[34px] bg-[linear-gradient(145deg,#0a4b28,#16934f)] p-8 text-right text-white shadow-[0_28px_70px_rgba(15,110,58,0.22)]">
             <p className="text-sm font-semibold uppercase tracking-[0.45em] text-white/50">Launch Craxad</p>
             <h2 className="mt-4 text-4xl font-black sm:text-5xl">كل شيء جاهز الآن لتقديم كراكساب كمنتج دردشة وقنوات حديث</h2>
             <p className="mt-4 text-lg leading-8 text-white/75">

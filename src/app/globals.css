@@ -1,18 +1,18 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
 :root {
-  --background: #f3fff8;
-  --foreground: #0c1b12;
-  --gold-50: #f1fff6;
-  --gold-100: #dcffe8;
-  --gold-200: #b8f5ce;
-  --gold-300: #88e8af;
-  --gold-400: #57d88d;
-  --gold-500: #2ebf69;
-  --gold-600: #16934f;
-  --gold-700: #0f6e3a;
-  --gold-800: #0a4b28;
-  --gold-900: #052d17;
+  --background: #f7f7f8;
+  --foreground: #0f1115;
+  --gold-50: #f6f7f8;
+  --gold-100: #e8eaed;
+  --gold-200: #d1d5db;
+  --gold-300: #9aa3b2;
+  --gold-400: #6b7280;
+  --gold-500: #374151;
+  --gold-600: #1f2937;
+  --gold-700: #111827;
+  --gold-800: #0f172a;
+  --gold-900: #020617;
 }
 
 @theme inline {
@@ -25,9 +25,9 @@ body {
   color: var(--foreground);
   font-family: "Cairo", "Tajawal", "Noto Kufi Arabic", "Noto Sans Arabic", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
   background-image:
-    radial-gradient(circle at top right, rgba(46, 191, 105, 0.16), transparent 26%),
-    radial-gradient(circle at left center, rgba(15, 110, 58, 0.12), transparent 24%),
-    linear-gradient(180deg, #fcfffd 0%, #f3fff8 100%);
+    radial-gradient(circle at top right, rgba(15, 23, 42, 0.07), transparent 26%),
+    radial-gradient(circle at left center, rgba(30, 41, 59, 0.06), transparent 24%),
+    linear-gradient(180deg, #ffffff 0%, #f7f7f8 100%);
 }
 
 * {
@@ -35,8 +35,8 @@ body {
 }
 
 ::selection {
-  background: rgba(46, 191, 105, 0.22);
-  color: #052d17;
+  background: rgba(15, 23, 42, 0.18);
+  color: #020617;
 }
 
 /* Red/Rose -> Gold */
@@ -125,15 +125,15 @@ body {
 }
 
 .dark\:bg-red-900\/50 {
-  background-color: rgba(10, 75, 40, 0.5) !important;
+  background-color: rgba(15, 23, 42, 0.5) !important;
 }
 
 .dark\:bg-red-900\/40 {
-  background-color: rgba(10, 75, 40, 0.4) !important;
+  background-color: rgba(15, 23, 42, 0.4) !important;
 }
 
 .dark\:bg-red-950\/40 {
-  background-color: rgba(5, 45, 23, 0.4) !important;
+  background-color: rgba(2, 6, 23, 0.4) !important;
 }
 
 .dark\:text-red-200 {
@@ -145,11 +145,11 @@ body {
 }
 
 .dark\:border-red-600\/40 {
-  border-color: rgba(22, 147, 79, 0.4) !important;
+  border-color: rgba(31, 41, 55, 0.4) !important;
 }
 
 .dark\:border-red-500\/60 {
-  border-color: rgba(46, 191, 105, 0.6) !important;
+  border-color: rgba(55, 65, 81, 0.6) !important;
 }
 
 /* Cyan/Teal -> Gold */
@@ -184,16 +184,16 @@ body {
 .bg-cyan-300\/30,
 .bg-cyan-300\/35,
 .bg-teal-300\/25 {
-  background-color: rgba(46, 191, 105, 0.25) !important;
+  background-color: rgba(15, 23, 42, 0.16) !important;
 }
 
 .shadow-cyan-500\/20 {
-  --tw-shadow-color: rgba(15, 110, 58, 0.35) !important;
+  --tw-shadow-color: rgba(15, 23, 42, 0.28) !important;
 }
 
 .from-red-50 {
   --tw-gradient-from: var(--gold-50) var(--tw-gradient-from-position) !important;
-  --tw-gradient-to: rgba(241, 255, 246, 0) var(--tw-gradient-to-position) !important;
+  --tw-gradient-to: rgba(246, 247, 248, 0) var(--tw-gradient-to-position) !important;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
 
@@ -214,10 +214,11 @@ body {
 .bg-amber-300\/25,
 .bg-amber-300\/30,
 .bg-amber-300\/35 {
-  background-color: rgba(46, 191, 105, 0.26) !important;
+  background-color: rgba(15, 23, 42, 0.16) !important;
 }
 
 .border-amber-300,
 .hover\:border-amber-300:hover {
   border-color: var(--gold-300) !important;
 }
+

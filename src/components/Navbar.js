@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import Link from 'next/link';
 import { useState } from 'react';
@@ -6,23 +6,23 @@ import { useState } from 'react';
 const links = [
   {
     href: '/#top',
-    label: 'نظرة عامة',
-    helper: 'تعريف سريع بكراكساب',
+    label: 'Ù†Ø¸Ø±Ø© Ø¹Ø§Ù…Ø©',
+    helper: 'ØªØ¹Ø±ÙŠÙ Ø³Ø±ÙŠØ¹ Ø¨ÙƒØ±Ø§ÙƒØ³Ø§Ø¨',
   },
   {
     href: '/features#chat-features',
-    label: 'الدردشة والقنوات',
-    helper: 'المحادثات والمجتمعات',
+    label: 'Ø§Ù„Ø¯Ø±Ø¯Ø´Ø© ÙˆØ§Ù„Ù‚Ù†ÙˆØ§Øª',
+    helper: 'Ø§Ù„Ù…Ø­Ø§Ø¯Ø«Ø§Øª ÙˆØ§Ù„Ù…Ø¬ØªÙ…Ø¹Ø§Øª',
   },
   {
     href: '/security#account-security',
-    label: 'الخصوصية والأمان',
-    helper: 'حماية الحساب والبيانات',
+    label: 'Ø§Ù„Ø®ØµÙˆØµÙŠØ© ÙˆØ§Ù„Ø£Ù…Ø§Ù†',
+    helper: 'Ø­Ù…Ø§ÙŠØ© Ø§Ù„Ø­Ø³Ø§Ø¨ ÙˆØ§Ù„Ø¨ÙŠØ§Ù†Ø§Øª',
   },
   {
     href: '/features#activity-features',
-    label: 'الأنشطة والقصص',
-    helper: 'القنوات والمنشورات اليومية',
+    label: 'Ø§Ù„Ø£Ù†Ø´Ø·Ø© ÙˆØ§Ù„Ù‚ØµØµ',
+    helper: 'Ø§Ù„Ù‚Ù†ÙˆØ§Øª ÙˆØ§Ù„Ù…Ù†Ø´ÙˆØ±Ø§Øª Ø§Ù„ÙŠÙˆÙ…ÙŠØ©',
   },
 ];
 
@@ -37,14 +37,14 @@ export default function Navbar() {
             <div className="flex justify-start">
               <Link
                 href="/download"
-                className="inline-flex items-center gap-3 rounded-full bg-[linear-gradient(135deg,#9b6e0f,#7a560b)] px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-cyan-500/20 transition-transform hover:-translate-y-0.5"
+                className="inline-flex items-center gap-3 rounded-full bg-[linear-gradient(135deg,#111111,#000000)] px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-black/25 transition-transform hover:-translate-y-0.5"
               >
                 <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/15">
                   <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v11m0 0 4-4m-4 4-4-4M5 19h14" />
                   </svg>
                 </span>
-                تنزيل التطبيق
+                ØªÙ†Ø²ÙŠÙ„ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚
               </Link>
             </div>
           </div>
@@ -61,7 +61,7 @@ export default function Navbar() {
             <Link href="/" className="flex min-w-0 items-center text-right">
               <div className="flex min-w-0 flex-col">
                 <span className="text-xs font-semibold uppercase tracking-[0.42em] text-slate-500">Craxad</span>
-                <span className="truncate text-2xl font-black text-slate-950">كراكساب</span>
+                <span className="truncate text-2xl font-black text-slate-950">ÙƒØ±Ø§ÙƒØ³Ø§Ø¨</span>
               </div>
             </Link>
 
@@ -69,7 +69,7 @@ export default function Navbar() {
               type="button"
               onClick={() => setIsOpen((value) => !value)}
               className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-slate-200 bg-white text-slate-900 transition hover:bg-slate-50 lg:hidden"
-              aria-label={isOpen ? 'إغلاق القائمة' : 'فتح القائمة'}
+              aria-label={isOpen ? 'Ø¥ØºÙ„Ø§Ù‚ Ø§Ù„Ù‚Ø§Ø¦Ù…Ø©' : 'ÙØªØ­ Ø§Ù„Ù‚Ø§Ø¦Ù…Ø©'}
               aria-expanded={isOpen}
             >
               <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -98,9 +98,9 @@ export default function Navbar() {
               <Link
                 href="/download"
                 onClick={() => setIsOpen(false)}
-                className="inline-flex items-center justify-center rounded-[22px] bg-[linear-gradient(135deg,#9b6e0f,#7a560b)] px-5 py-3.5 text-sm font-semibold text-white"
+                className="inline-flex items-center justify-center rounded-[22px] bg-[linear-gradient(135deg,#111111,#000000)] px-5 py-3.5 text-sm font-semibold text-white"
               >
-                تنزيل التطبيق
+                ØªÙ†Ø²ÙŠÙ„ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚
               </Link>
             </div>
           </div>
@@ -134,4 +134,5 @@ function NavLinkMobile({ href, label, helper, onClick }) {
     </Link>
   );
 }
+
 

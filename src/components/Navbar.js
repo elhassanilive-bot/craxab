@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import Link from 'next/link';
 import { useState } from 'react';
@@ -6,23 +6,23 @@ import { useState } from 'react';
 const links = [
   {
     href: '/#top',
-    label: 'Ù†Ø¸Ø±Ø© Ø¹Ø§Ù…Ø©',
-    helper: 'ØªØ¹Ø±ÙŠÙ Ø³Ø±ÙŠØ¹ Ø¨ÙƒØ±Ø§ÙƒØ³Ø§Ø¨',
+    label: 'نظرة عامة',
+    helper: 'تعريف سريع بكراكساب',
   },
   {
     href: '/features#chat-features',
-    label: 'Ø§Ù„Ø¯Ø±Ø¯Ø´Ø© ÙˆØ§Ù„Ù‚Ù†ÙˆØ§Øª',
-    helper: 'Ø§Ù„Ù…Ø­Ø§Ø¯Ø«Ø§Øª ÙˆØ§Ù„Ù…Ø¬ØªÙ…Ø¹Ø§Øª',
+    label: 'الدردشة والقنوات',
+    helper: 'المحادثات والمجتمعات',
   },
   {
     href: '/security#account-security',
-    label: 'Ø§Ù„Ø®ØµÙˆØµÙŠØ© ÙˆØ§Ù„Ø£Ù…Ø§Ù†',
-    helper: 'Ø­Ù…Ø§ÙŠØ© Ø§Ù„Ø­Ø³Ø§Ø¨ ÙˆØ§Ù„Ø¨ÙŠØ§Ù†Ø§Øª',
+    label: 'الخصوصية والأمان',
+    helper: 'حماية الحساب والبيانات',
   },
   {
     href: '/features#activity-features',
-    label: 'Ø§Ù„Ø£Ù†Ø´Ø·Ø© ÙˆØ§Ù„Ù‚ØµØµ',
-    helper: 'Ø§Ù„Ù‚Ù†ÙˆØ§Øª ÙˆØ§Ù„Ù…Ù†Ø´ÙˆØ±Ø§Øª Ø§Ù„ÙŠÙˆÙ…ÙŠØ©',
+    label: 'الأنشطة والقصص',
+    helper: 'القنوات والمنشورات اليومية',
   },
 ];
 
@@ -44,7 +44,7 @@ export default function Navbar() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v11m0 0 4-4m-4 4-4-4M5 19h14" />
                   </svg>
                 </span>
-                ØªÙ†Ø²ÙŠÙ„ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚
+                تنزيل التطبيق
               </Link>
             </div>
           </div>
@@ -61,7 +61,7 @@ export default function Navbar() {
             <Link href="/" className="flex min-w-0 items-center text-right">
               <div className="flex min-w-0 flex-col">
                 <span className="text-xs font-semibold uppercase tracking-[0.42em] text-slate-500">Craxad</span>
-                <span className="truncate text-2xl font-black text-slate-950">ÙƒØ±Ø§ÙƒØ³Ø§Ø¨</span>
+                <span className="truncate text-2xl font-black text-slate-950">كراكساب</span>
               </div>
             </Link>
 
@@ -69,7 +69,7 @@ export default function Navbar() {
               type="button"
               onClick={() => setIsOpen((value) => !value)}
               className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-slate-200 bg-white text-slate-900 transition hover:bg-slate-50 lg:hidden"
-              aria-label={isOpen ? 'Ø¥ØºÙ„Ø§Ù‚ Ø§Ù„Ù‚Ø§Ø¦Ù…Ø©' : 'ÙØªØ­ Ø§Ù„Ù‚Ø§Ø¦Ù…Ø©'}
+              aria-label={isOpen ? 'إغلاق القائمة' : 'فتح القائمة'}
               aria-expanded={isOpen}
             >
               <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -100,7 +100,7 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
                 className="inline-flex items-center justify-center rounded-[22px] bg-[linear-gradient(135deg,#111111,#000000)] px-5 py-3.5 text-sm font-semibold text-white"
               >
-                ØªÙ†Ø²ÙŠÙ„ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚
+                تنزيل التطبيق
               </Link>
             </div>
           </div>
